@@ -28,3 +28,6 @@
 [submodule "bundle/tir_black"]
 	path = bundle/tir_black
 	url = git://github.com/vim-scripts/tir_black.git
+[submodule "bundle/netrw"]
+	path = bundle/netrw
+	url = git://github.com/vim-scripts/netrw.vim.git
