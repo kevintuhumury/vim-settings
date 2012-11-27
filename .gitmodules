@@ -31,3 +31,6 @@
 [submodule "bundle/netrw"]
 	path = bundle/netrw
 	url = git://github.com/vim-scripts/netrw.vim.git
+[submodule "bundle/cucumber"]
+	path = bundle/cucumber
+	url = git://github.com/tpope/vim-cucumber.git
