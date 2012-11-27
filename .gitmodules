@@ -1,3 +1,6 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = git://github.com/mileszs/ack.vim.git
+[submodule "bundle/buffer_explorer"]
+	path = bundle/buffer_explorer
+	url = git://github.com/vim-scripts/bufexplorer.zip.git
