@@ -13,6 +13,7 @@ filetype plugin indent on
 " Load all the things.
 source ~/.vim/rc/arrow_keys.vim
 source ~/.vim/rc/buffer_explorer.vim
+source ~/.vim/rc/cucumber.vim
 source ~/.vim/rc/history.vim
 source ~/.vim/rc/indent.vim
 source ~/.vim/rc/keys.vim
