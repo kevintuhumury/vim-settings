@@ -10,6 +10,9 @@ set number
 " Wrap text by default.
 set wrap
 
+" Highlight the current line.
+set cursorline
+
 " Wrap text and comments.
 set formatoptions=qrn1
 
