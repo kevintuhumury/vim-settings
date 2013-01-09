@@ -18,3 +18,4 @@ set statusline +=%*\ %{&ff}\                       " Show the file format.
 set statusline +=%*(%{(&fenc==\"\"?&enc:&fenc)})\  " Show the file encoding.
 set statusline +=%*%3l                             " Show the current linenumber.
 set statusline +=%*%*,%02v\                        " Show the current column number.
+set statusline +=%*\ (%p%%)                        " Show the percentage through the current file in lines.
