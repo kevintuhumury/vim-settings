@@ -24,3 +24,6 @@ set scrolljump=8
 
 " Add a $ character add the end of the word instead of deleting the word while replacing it.
 set cpoptions=ces$
+
+" Change the background color of the SignColumn (used by Git Gutter) to black.
+:autocmd ColorScheme * highlight SignColumn ctermbg=black guibg=black
