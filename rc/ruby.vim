@@ -10,6 +10,9 @@ let ruby_operators = 1
 " Whitespace errors can be highlighted by defining "ruby_space_errors":
 let ruby_space_errors = 1
 
+" Make debug statements extremely obvious.
+au BufEnter *.rb syn match error contained "\<binding.pry\>"
+
 " Write the file and run tests for the given filename.
 function! RunTests(filename)
   :w
