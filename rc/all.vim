@@ -1,8 +1,6 @@
 " Use Vim settings, instead of Vi settings. This must be done first, since it changes other options.
 set nocompatible
 
-" Load all the Vim plugins.
-call pathogen#infect()
 
 " Enable syntax highlighting.
 syntax on
