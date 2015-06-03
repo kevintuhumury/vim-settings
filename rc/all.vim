@@ -29,6 +29,7 @@ source ~/.vim/rc/search.vim
 source ~/.vim/rc/splits.vim
 source ~/.vim/rc/statusbar.vim
 source ~/.vim/rc/tabularize.vim
+source ~/.vim/rc/tab_completion.vim
 source ~/.vim/rc/visual.vim
 source ~/.vim/rc/whitespace.vim
 source ~/.vim/rc/windows.vim
