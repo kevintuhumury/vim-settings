@@ -19,3 +19,6 @@ set statusline +=%*(%{(&fenc==\"\"?&enc:&fenc)})\  " Show the file encoding.
 set statusline +=%*%3l                             " Show the current linenumber.
 set statusline +=%*%*,%02v\                        " Show the current column number.
 set statusline +=%*\ (%p%%)                        " Show the percentage through the current file in lines.
+
+set statusline+=\ %#warningmsg#                    " Show the following content in warning message style (red background).
+set statusline+=%{SyntasticStatuslineFlag()}       " Show the syntastic syntax status line.

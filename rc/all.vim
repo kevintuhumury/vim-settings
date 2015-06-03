@@ -19,6 +19,7 @@ filetype plugin indent on
 source ~/.vim/rc/arrow_keys.vim
 source ~/.vim/rc/buffer_explorer.vim
 source ~/.vim/rc/ctrlp.vim
+source ~/.vim/rc/syntastic.vim
 source ~/.vim/rc/cucumber.vim
 source ~/.vim/rc/history.vim
 source ~/.vim/rc/indent.vim
