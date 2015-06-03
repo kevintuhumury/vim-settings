@@ -23,3 +23,6 @@ inoremap <D-j> <Esc>:m+<CR>==gi
 inoremap <D-k> <Esc>:m-2<CR>==gi
 vnoremap <D-j> :m'>+<CR>gv=gv
 vnoremap <D-k> :m-2<CR>gv=gv
+
+" Switch between the last two files.
+nnoremap <leader><leader> <c-^>
