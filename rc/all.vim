@@ -21,6 +21,7 @@ source ~/.vim/rc/buffer_explorer.vim
 source ~/.vim/rc/ctrlp.vim
 source ~/.vim/rc/syntastic.vim
 source ~/.vim/rc/cucumber.vim
+source ~/.vim/rc/formatting.vim
 source ~/.vim/rc/history.vim
 source ~/.vim/rc/indent.vim
 source ~/.vim/rc/keys.vim
