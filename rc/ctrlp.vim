@@ -2,3 +2,6 @@
 map <leader>p :CtrlP<CR>
 map <leader>b :CtrlPBuffer<CR>
 map <leader>m :CtrlPMRU<CR>
+
+" Ignore some directories
+let g:ctrlp_custom_ignore = '\v[\/](coverage|undo|tmp)$'
