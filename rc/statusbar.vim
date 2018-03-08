@@ -22,3 +22,5 @@ set statusline +=%*\ (%p%%)                        " Show the percentage through
 
 set statusline+=\ %#warningmsg#                    " Show the following content in warning message style (red background).
 set statusline+=%{SyntasticStatuslineFlag()}       " Show the syntastic syntax status line.
+
+let g:airline_theme='minimalist'
