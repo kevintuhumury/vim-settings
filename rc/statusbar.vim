@@ -24,3 +24,14 @@ set statusline+=\ %#warningmsg#                    " Show the following content 
 set statusline+=%{SyntasticStatuslineFlag()}       " Show the syntastic syntax status line.
 
 let g:airline_theme='minimalist'
+
+let s:airline_a_insert = [ '#EEEEEE', '#d33f21', 254, 160 ]
+
+let g:airline#themes#minimalist#palette.insert = {
+  \ 'airline_a': s:airline_a_insert,
+  \ 'airline_b': g:airline#themes#minimalist#palette.insert.airline_b,
+  \ 'airline_c': g:airline#themes#minimalist#palette.insert.airline_c,
+  \ 'airline_x': g:airline#themes#minimalist#palette.insert.airline_x,
+  \ 'airline_y': g:airline#themes#minimalist#palette.insert.airline_y,
+  \ 'airline_z': g:airline#themes#minimalist#palette.insert.airline_z
+  \ }
