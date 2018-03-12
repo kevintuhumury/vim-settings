@@ -12,9 +12,4 @@ When using MacVim, you should also create a `~/.gvimrc` with the content below:
 source ~/.vim/rc/gvim.vim
 ```
 
-After creating the `.vimrc` and `.gvimrc` files, install all of the [Vundle](https://github.com/gmarik/Vundle.vim) plugins:
-
-```
-cd ~/.vim/
-./vundle
-```
+Vim will automatically install itself and [Plug](https://github.com/junegunn/vim-plug) when you start Vim for the first time.

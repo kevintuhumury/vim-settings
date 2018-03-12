@@ -1,4 +1,5 @@
 .netrwhist
 /tmp/*
 /undo/*
-/bundle
+/autoload
+/plugged

@@ -1,13 +1,8 @@
 " Use Vim settings, instead of Vi settings. This must be done first, since it changes other options.
 set nocompatible
 
-" Load all the Vim plugins with Vundle.
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-source ~/.vim/rc/vundle.vim
-
-call vundle#end()
+" Setup .vim directories and install Vim plugins.
+source ~/.vim/rc/setup.vim
 
 " Enable syntax highlighting.
 syntax on
