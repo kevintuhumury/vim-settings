@@ -1,3 +1,4 @@
+" Setup Vim.
 let shouldInstallPlugins=0
 
 if !filereadable(expand("~/.vim/autoload/plug.vim"))
@@ -25,12 +26,14 @@ Plug 'airblade/vim-gitgutter'         " show git changes in the gutter
 Plug 'jlanzarotta/bufexplorer'        " lists open bufffers like netrw
 Plug 'vim-airline/vim-airline'        " nicely themed statusbar
 Plug 'vim-airline/vim-airline-themes' " statusbar themes
+Plug 'janko-m/vim-test'               " quickly run a test
 
 Plug 'twerth/ir_black'                " best theme ever
 Plug 'vim-scripts/tir_black'          " best theme ever for terminal (256 colors)
 
 call plug#end()
 
+" Install the plugins.
 if shouldInstallPlugins == 1
   echo 'Installing plugins with Plug.'
   :PlugInstall
