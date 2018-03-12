@@ -11,4 +11,4 @@ let ruby_operators = 1
 let ruby_space_errors = 1
 
 " Make debug statements extremely obvious.
-au BufEnter *.rb syn match error contained "\<binding.pry\>"
+syn match Error /binding.pry/
