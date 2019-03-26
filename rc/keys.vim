@@ -7,6 +7,11 @@ set backspace=indent,eol,start
 " Rename :W to :w
 command! W :w
 
+" Remap the § key to <ESC>. Useful when the <ESC> key isn't a physical key (MacBook with Touch Bar).
+inoremap § <ESC>
+nnoremap § <ESC>
+vnoremap § <ESC>
+
 " Turn off the <F1> key
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
