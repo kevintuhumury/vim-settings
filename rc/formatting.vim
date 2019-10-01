@@ -6,3 +6,10 @@ function! FormatXML()
 
 map <leader>x :call FormatXML()<CR>
 map! <leader>x :call FormatXML()<CR>
+
+" Format JSON.
+function! FormatJSON()
+  %!python -m json.tool
+:endfunction
+
+command Json :call FormatJSON()<CR>
